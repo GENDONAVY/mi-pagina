@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nelthon Jair Hancco Castillo</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    header {
+      background-color: #8B0000; /* Rojo oscuro */
+      color: white;
+      padding: 40px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background-color: #34495e;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    section {
+      padding: 20px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    section:last-child {
+      border-bottom: none;
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #ecf0f1;
+      color: #7f8c8d;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nelthon Jair Hancco Castillo</h1>
+  </header>
+
+  <nav>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#cursos">Mis Cursos</a>
+    <a href="#amigos">Mis amigos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Mi nombre es Nelthon Jair Hancco Castillo, estudiante de la carrera de <a href="https://ucsp.edu.pe/carreras/ingenieria-industrial/" target="_blank">Ingeniería Industrial</a> en la <a href="https://ucsp.edu.pe" target="_blank">Universidad Católica San Pablo</a> de Arequipa, Perú.</p>
+      <p>Me gustan las matemáticas, los deportes y la autosuperación.</p>
+      <p>En mis tiempos libres me gusta ir al gym con amigos o jugar videojuegos.</p>
+    </section>
+
+    <section id="cursos">
+      <h2>Mis Cursos</h2>
+      <p>Actualmente en mi tercer semestre en la universidad estoy llevando los siguientes cursos:</p>
+      <ul>
+        <li>Matemática II</li>
+        <li>Química II</li>
+        <li>Física II</li>
+        <li>Antropología Filosófica y Teológica</li>
+        <li>Metodología de la Investigación Científica</li>
+        <li>Fundamentos de Informática<br>
+            Profesor: <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">Ernesto Cuadros</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="amigos">
+      <h2>Mis amigos</h2>
+      <p>Incluye nombres o descripciones de tus amigos y lo que significan para ti, si lo deseas.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Si quieres contactarme puedes escribirme:</p>
+      <p><strong>Email:</strong> <a href="mailto:nelthon.hancco@ucsp.edu.pe">nelthon.hancco@ucsp.edu.pe</a></p>
+      <p><a href="https://www.linkedin.com/in/nelthon-hancco-castillo-18b067358/" target="_blank">Linkedin</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nelthon Jair Hancco Castillo. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
